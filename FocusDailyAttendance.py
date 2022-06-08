@@ -331,8 +331,8 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 # start TLS for security 
 s.starttls() 
   
-# Authentication 
-s.login(fromaddr, "Wendell1!") 
+# Authentication. Replace ****** with password for FROM email address
+s.login(fromaddr, "******") 
   
 # Converts the Multipart msg into a string 
 text = msg.as_string() 
