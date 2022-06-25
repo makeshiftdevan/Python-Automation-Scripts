@@ -304,6 +304,7 @@ text = msg.as_string()
 # sending the mail 
 s.sendmail(fromaddr, toaddr, text) 
   
+    
 # terminating the session 
 s.quit()
 
